@@ -7,7 +7,7 @@ from autobahn.twisted.websocket import WebSocketClientFactory, \
 from twisted.internet import reactor, ssl
 from twisted.internet.protocol import ReconnectingClientFactory
 from twisted.internet.error import ReactorAlreadyRunning
-import ujson as json
+import json as json # Disable ujson
 
 from binance.client import Client
 
